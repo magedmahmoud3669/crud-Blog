@@ -1,0 +1,35 @@
+<table border="1px">
+          <tr>
+              <th>
+                  title
+              </th>
+              <td>
+                  {{$post["title"]}}
+              </td>
+          </tr>
+          <tr>
+              <th>
+                  slug
+              </th>
+              <td>
+                  {{$post["slug"]}}
+              </td>
+          </tr>
+          <tr>
+              <th>
+                  body
+              </th>
+              <td>
+                  {{$post["body"]}}
+              </td>
+          </tr>
+          <tr>
+              <th>
+                  version
+              </th>
+              <td>
+                  {{$post["version"]}}
+              </td>
+          </tr>
+</table>
+       
